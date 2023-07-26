@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+*{
+    font-family:'open Sans',sans-serif ;
+}
+
+body{
+display: flex;
+justify-content: center;
+
+}
+.conatiner{
+    margin-top: 50px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 10px #0044ff;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 40px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #0044ff;
+    width: 50%;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+button{
+  width: 100%;  
+  margin-top: 25px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: #0044ff;
+  color: #fff;
+}
+#result{
+   margin-top: 20px; 
+   font-size: 25px;
+
+}
